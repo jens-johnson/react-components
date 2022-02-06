@@ -6,4 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2022-02-06
 ### Added
-- Created repository scaffolding
+- Full 0.1.0 setup
+- Repository created, with build tools including lint and formatting
+- NPM package and project created

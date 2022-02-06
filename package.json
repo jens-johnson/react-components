@@ -1,13 +1,25 @@
 {
   "name": "@jens-johnson/react-components",
   "version": "0.1.0",
-  "description": "Custom React components to be used as boilerplates in projects",
-  "main": "index.js",
+  "description": "Custom React components and boilerplates to be used in projects",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "directories": {
     "doc": "docs"
   },
+  "engines": {
+    "node": ">=v16.13.2",
+    "npm": ">=8.1.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format:audit": "prettier -c src/**/*.ts src/**/*.ts",
+    "format:fix": "prettier -w src/**/*.ts src/**/*.ts",
+    "lint:audit": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src/"
   },
   "repository": {
     "type": "git",
@@ -23,5 +35,17 @@
   "bugs": {
     "url": "https://github.com/jens-johnson/react-components/issues"
   },
-  "homepage": "https://github.com/jens-johnson/react-components#readme"
+  "homepage": "https://github.com/jens-johnson/react-components#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "@jens-johnson/react-components",
+  "version": "0.1.0",
+  "description": "Custom React components to be used as boilerplates in projects",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jens-johnson/react-components.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Components"
+  ],
+  "author": "Jens Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jens-johnson/react-components/issues"
+  },
+  "homepage": "https://github.com/jens-johnson/react-components#readme"
+}
